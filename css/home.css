@@ -1,0 +1,176 @@
+@import url('http://fonts.cdnfonts.com/css/inria-serif');
+
+* {
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://i.ibb.co/zQLmqmN/xbanner-png-pagespeed-ic-Yjbiz-Hz-TSZ.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    width: 60vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero-img {
+    height: 21vw;
+    width: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-img img {
+    height: 17vw;
+}
+
+.hero-lorem {
+    height: 21vw;
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-lorem h1 {
+    font-size: 4vw;
+    letter-spacing: 0.6vw;
+    width: 100%;
+    font-family: 'Inria Serif', sans-serif;
+                                                
+    color: rgba(255, 255, 255, 0.58);
+}
+
+.hero-lorem button {
+    height: 3vw;
+    width: 10vw;
+    border-radius: 17px;
+    border: none;
+    color: white;
+    background: #04D2C8;
+    font-size: 0.9vw;
+}
+
+@media only screen and (max-width: 1153px) {
+    .hero {
+        width: 80vw;
+    }
+
+    .hero-img {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .hero-lorem {
+        height: 30vw;
+        width: 50vw;
+    }
+
+    .hero-lorem h1 {
+        font-size: 5vw;
+    }
+
+    .hero-lorem button {
+        height: 4vw;
+        width: 11vw;
+        font-size: 1vw;
+    }
+
+}
+@media only screen and (max-width : 820px) {
+    .hero {
+        width: 100vw;
+    }
+
+    .hero-img {
+        height: 40vw;
+        width: 40vw;
+    }
+    .hero-img img {
+        height: 35vw;
+    }
+
+    .hero-lorem {
+        height: 35vw;
+        width: 60vw;
+    }
+
+    .hero-lorem h1 {
+        font-size: 6vw;
+    }
+
+    .hero-lorem button {
+        height: 9vw;
+        width: 20vw;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .hero {
+        height: 80%;
+        width: 70%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+    }
+
+    .hero-lorem {
+        height: 100%;
+        width: 100%;
+    }
+
+    .hero-lorem h1 {
+        font-size: 30px;
+        width: 80%;
+        position: absolute;
+
+
+    }
+
+    .hero-img {
+        height: 65vw;
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero-img img {
+        height: 65vw;
+    }
+
+    .hero-lorem button {
+        height: 10vw;
+        width: 26vw;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -95%);
+        font-size: 11px;
+    }
+}
